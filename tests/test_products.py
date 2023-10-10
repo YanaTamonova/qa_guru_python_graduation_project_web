@@ -3,6 +3,12 @@ from allure_commons.types import Severity
 from models.products import Products
 from data.user import User
 
+pytestmark = [
+    allure.label('layer', 'web'),
+    allure.label('owner', 'ytamonova'),
+    allure.tag('web')
+]
+
 existing_user = User('Natalia', 'Petrova', 'standard_user', 'secret_sauce', '000000')
 
 
