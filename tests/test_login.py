@@ -6,7 +6,8 @@ from models.login import LoginPage
 pytestmark = [
     allure.label('layer', 'UI test'),
     allure.label('owner', 'ytamonova'),
-    allure.tag('web')
+    allure.tag('web'),
+    allure.tag('login')
 ]
 
 existing_user = User('Natalia', 'Petrova', 'standard_user', 'secret_sauce', '000000')
