@@ -36,7 +36,7 @@ class Products:
             browser.element('.inventory_item_name').should(have.exact_text(item))
 
     def click_button(self, button_id):
-        with allure.step(f'Нажать кнопку {button_id[1:].upper()}'):
+        with allure.step(f'Нажать кнопку {button_id[1:].title()}'):
             browser.element(button_id).click()
 
     def fill_first_name(self, first_name):
