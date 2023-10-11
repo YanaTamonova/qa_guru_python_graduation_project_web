@@ -1,4 +1,7 @@
 ## Пример проекта UI автотестов на демо-сайте [Swag Labs](https://www.saucedemo.com)
+<p align="center">
+    <img src="readme_images/screenshot/jenkins_project_page.png"/>&nbsp;
+</p>
 
 ## Используемые технологии
 <p>
@@ -74,6 +77,8 @@ allure.bat serve allure-results
 * процент пройденных/неудачных/пропущенных/и т.д. тестов
 * ссылка на allure отчет
 
+<p align="center">
 <img src="readme_images/screenshot/tg_report.png" height="300"/>&nbsp;
+</p>
 
 Для отправки сообщений в телеграм была использована [notifications library](https://github.com/qa-guru/allure-notifications), создан и добавлен в чат телеграм бот.
