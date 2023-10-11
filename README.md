@@ -24,7 +24,7 @@
 
 Пример запущенного теста (Успешный заказ):
 <p align="center">
-    <img src="readme_images/screenshot/wikipedia_test.gif"/>&nbsp;
+    <img src="readme_images/screenshot/web_test.gif"/>&nbsp;
 </p>
 
 ## Запуск тестов
