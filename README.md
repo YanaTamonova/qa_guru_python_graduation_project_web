@@ -39,7 +39,7 @@ pytest .
 <img src="readme_images/screenshot/jenkins_params.png"/>&nbsp;
 
 ### Для запуска тестов из [Allure Test Ops](https://jenkins.autotests.cloud/job/qa_guru_python_graduation_project_web/):
-Hеализована интеграция с **Allure Test Ops**, откуда напрямую можно запускать тесты. В **Allure Test Ops** также есть возможность настраивать параметры запуска, выбирая конкретные тестовые случаи.
+Реализована интеграция с **Allure Test Ops**, откуда напрямую можно запускать тесты. В **Allure Test Ops** также есть возможность настраивать параметры запуска, выбирая конкретные тестовые случаи.
 
 <img src="readme_images/screenshot/allure_job.png"/>&nbsp;
 <img src="readme_images/screenshot/allure_launch.png"/>&nbsp;
